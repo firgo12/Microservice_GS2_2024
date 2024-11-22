@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonitoramentoConsumo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c35c7566826914284c77c607f6c82a49807c1edf")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonitoramentoConsumo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonitoramentoConsumo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

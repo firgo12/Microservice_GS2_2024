@@ -7,8 +7,15 @@ using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+var redisConnectionString = builder.Configuration.GetConnectionString("RedisConnection");
+if (string.IsNullOrEmpty(redisConnectionString))
+{
+    throw new ArgumentNullException(nameof(redisConnectionString), "A configuração do Redis não pode ser nula.");
+}
+
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
-          ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("RedisConnection")));
+    ConnectionMultiplexer.Connect(redisConnectionString));
 
 builder.Services.AddSingleton<IDatabase>(sp =>
     sp.GetRequiredService<IConnectionMultiplexer>().GetDatabase());
@@ -24,13 +31,16 @@ builder.Services.AddScoped(sp =>
     sp.GetRequiredService<IMongoClient>().GetDatabase(builder.Configuration.GetValue<string>("MongoDB:DatabaseName")).GetCollection<EnergyConsumption>("EnergyConsumption")
 );
 
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 builder.Services.AddLogging();
 
 var app = builder.Build();
+
 
 if (app.Environment.IsDevelopment())
 {
@@ -59,7 +69,7 @@ app.MapPost("/consumo", async (EnergyConsumption consumption, HttpContext contex
 app.MapGet("/consumo", async (HttpContext context) =>
 {
     var logger = context.RequestServices.GetRequiredService<ILogger<Program>>();
-    var cache = context.RequestServices.GetRequiredService<IConnectionMultiplexer>().GetDatabase();
+    var cache = context.RequestServices.GetRequiredService<IDatabase>();
     var collection = context.RequestServices.GetRequiredService<IMongoCollection<EnergyConsumption>>();
 
     try
@@ -93,14 +103,12 @@ app.MapGet("/consumo", async (HttpContext context) =>
         logger.LogError(ex, "Erro desconhecido.");
         return Results.StatusCode(500);
     }
-
-
-
-    app.UseHttpsRedirection();
-
-    app.UseAuthorization();
-
-    app.MapControllers();
-
-    app.Run();
 });
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

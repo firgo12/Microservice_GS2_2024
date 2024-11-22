@@ -38,3 +38,4 @@ D:\MonitoramentoConsumo\MonitoramentoConsumo\obj\Debug\net8.0\refint\Monitoramen
 D:\MonitoramentoConsumo\MonitoramentoConsumo\obj\Debug\net8.0\MonitoramentoConsumo.pdb
 D:\MonitoramentoConsumo\MonitoramentoConsumo\obj\Debug\net8.0\MonitoramentoConsumo.genruntimeconfig.cache
 D:\MonitoramentoConsumo\MonitoramentoConsumo\obj\Debug\net8.0\ref\MonitoramentoConsumo.dll
+D:\MonitoramentoConsumo\MonitoramentoConsumo\obj\Debug\net8.0\MonitoramentoConsumo.sourcelink.json
