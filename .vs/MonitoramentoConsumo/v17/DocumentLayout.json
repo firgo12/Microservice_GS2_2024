@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MonitoramentoConsumo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|d:\\monitoramentoconsumo\\monitoramentoconsumo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|solutionrelative:monitoramentoconsumo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|d:\\monitoramentoconsumo\\monitoramentoconsumo\\model\\energyconsumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|solutionrelative:monitoramentoconsumo\\model\\energyconsumption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|d:\\monitoramentoconsumo\\monitoramentoconsumo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|solutionrelative:monitoramentoconsumo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|d:\\monitoramentoconsumo\\monitoramentoconsumo\\model\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|solutionrelative:monitoramentoconsumo\\model\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|d:\\monitoramentoconsumo\\monitoramentoconsumo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|solutionrelative:monitoramentoconsumo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|d:\\monitoramentoconsumo\\monitoramentoconsumo\\monitoramentoconsumo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{89F3145A-EA1E-42A4-AAAF-C29F7C09DBFA}|MonitoramentoConsumo\\MonitoramentoConsumo.csproj|solutionrelative:monitoramentoconsumo\\monitoramentoconsumo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\Program.cs",
+              "RelativeDocumentMoniker": "MonitoramentoConsumo\\Program.cs",
+              "ToolTip": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\Program.cs",
+              "RelativeToolTip": "MonitoramentoConsumo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:39:36.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnergyConsumption.cs",
+              "DocumentMoniker": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\Model\\EnergyConsumption.cs",
+              "RelativeDocumentMoniker": "MonitoramentoConsumo\\Model\\EnergyConsumption.cs",
+              "ToolTip": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\Model\\EnergyConsumption.cs",
+              "RelativeToolTip": "MonitoramentoConsumo\\Model\\EnergyConsumption.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:53:02.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MonitoramentoConsumo\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MonitoramentoConsumo\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T22:48:18.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\appsettings.json",
+              "RelativeDocumentMoniker": "MonitoramentoConsumo\\appsettings.json",
+              "ToolTip": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\appsettings.json",
+              "RelativeToolTip": "MonitoramentoConsumo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T22:41:19.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\Model\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "MonitoramentoConsumo\\Model\\MongoDbSettings.cs",
+              "ToolTip": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\Model\\MongoDbSettings.cs",
+              "RelativeToolTip": "MonitoramentoConsumo\\Model\\MongoDbSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:57:02.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MonitoramentoConsumo.csproj",
+              "DocumentMoniker": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\MonitoramentoConsumo.csproj",
+              "RelativeDocumentMoniker": "MonitoramentoConsumo\\MonitoramentoConsumo.csproj",
+              "ToolTip": "D:\\MonitoramentoConsumo\\MonitoramentoConsumo\\MonitoramentoConsumo.csproj",
+              "RelativeToolTip": "MonitoramentoConsumo\\MonitoramentoConsumo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T22:40:20.058Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

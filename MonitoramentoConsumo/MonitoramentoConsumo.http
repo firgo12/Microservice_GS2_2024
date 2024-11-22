@@ -1,0 +1,6 @@
+@MonitoramentoConsumo_HostAddress = http://localhost:5066
+
+GET {{MonitoramentoConsumo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
